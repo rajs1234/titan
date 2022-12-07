@@ -11,8 +11,10 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
+:q
+|2,0,1670397131,,"q"
 :wq
-|2,0,1670395324,,"wq"
+|2,0,1670397119,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -23,20 +25,57 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	p
+|3,1,36,0,1,0,1670397104,"p"
 
 # File marks:
-'0  1  20  ~/test.html
-|4,48,1,20,1670395324,"~/test.html"
+'0  1  0  ~/add
+|4,48,1,0,1670397131,"~/add"
+'1  1  21  ~/test.html
+|4,49,1,21,1670397119,"~/test.html"
+'2  1  0  ~/tset.html
+|4,50,1,0,1670397088,"~/tset.html"
+'3  1  20  ~/test.html
+|4,51,1,20,1670395324,"~/test.html"
 
 # Jumplist (newest first):
+-'  1  0  ~/add
+|4,39,1,0,1670397131,"~/add"
+-'  1  21  ~/test.html
+|4,39,1,21,1670397119,"~/test.html"
+-'  1  21  ~/test.html
+|4,39,1,21,1670397119,"~/test.html"
+-'  1  0  ~/tset.html
+|4,39,1,0,1670397088,"~/tset.html"
+-'  1  0  ~/tset.html
+|4,39,1,0,1670397088,"~/tset.html"
+-'  1  0  ~/tset.html
+|4,39,1,0,1670397088,"~/tset.html"
+-'  1  0  ~/tset.html
+|4,39,1,0,1670397088,"~/tset.html"
+-'  1  20  ~/test.html
+|4,39,1,20,1670395324,"~/test.html"
+-'  1  20  ~/test.html
+|4,39,1,20,1670395324,"~/test.html"
+-'  1  20  ~/test.html
+|4,39,1,20,1670395324,"~/test.html"
 -'  1  20  ~/test.html
 |4,39,1,20,1670395324,"~/test.html"
 
 # History of marks within files (newest to oldest):
 
+> ~/add
+	*	1670397130	0
+	"	1	0
+
 > ~/test.html
-	*	1670395323	0
-	"	1	20
-	^	1	21
-	.	1	20
-	+	1	20
+	*	1670397117	0
+	"	1	21
+	^	1	23
+	.	1	22
+	+	1	22
+
+> ~/tset.html
+	*	1670397086	0
+	"	1	0
